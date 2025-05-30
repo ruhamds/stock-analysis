@@ -1,6 +1,7 @@
 # Financial Analysis
 
 **Author:** Ruhama Israel
+
 **KAIM Week 1**
 
 ## Project Description
