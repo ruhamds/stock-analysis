@@ -1,55 +1,24 @@
-# Financial Analysis
 
-**Author:** Ruhama Israel
+## Minimum Essential To Do:
+- Create a GitHub repository that  will be using to host all the code for this week.
+- Create at least one new branch called "task-1" for your analysis.
+- Commit  at least three times a day with a descriptive commit message.
 
-**KAIM Week 1**
+## Exploratory Data Analysis (EDA) tasks:
+- Descriptive Statistics:
+  - Obtain basic statistics for textual lengths (like headline length).
+  - Count the number of articles per publisher to identify which publishers are most active.
+  - Analyze publication dates to see trends over time (e.g., spikes on particular days or events).
 
-## Project Description
+- Text Analysis (Topic Modeling):
+  - Use natural language processing to identify common keywords or phrases.
+  - Extract topics or significant events (e.g., "FDA approval", "price target").
 
-This project involves setting up a development environment and performing Exploratory Data Analysis (EDA) on solar datasets. The goal is to prepare the data for subsequent analysis, which will likely involve comparing solar data across different countries.
+- Time Series Analysis:
+  - Analyze publication frequency variations over time.
+  - Identify spikes in article publications related to market events.
+  - Analyze publishing times for trends relevant to traders.
 
-## How to Reproduce the Environment
-
-To reproduce the development environment, follow these steps:
-
-1.  Clone the repository:
-
-    ```bash
-    git clone https://github.com/anasimos/financial-analysis-task1.git 
-    cd financial-analysis-task1
-    ```
-2.  Create a virtual environment:
-
-    ```bash
-    python3 -m venv .venv # For venv
-    # or
-    conda create -n .venv python # For conda
-    ```
-3.  Activate the virtual environment:
-
-    * **venv (Linux/macOS):**
-
-        ```bash
-        source .venv/bin/activate
-        ```
-
-    * **venv (Windows):**
-
-        ```bash
-        .venv\Scripts\activate
-        ```
-
-    * **conda:**
-
-        ```bash
-        conda activate myenv
-        ```
-4.  Install the project dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-##  Further Information
-
-For any questions or clarifications, please contact me at ruheezrael@gmail.com.
+- Publisher Analysis:
+  - Identify which publishers contribute most to the news feed.
+  - If publisher names are email addresses, analyze unique domains to find dominant organizations.
